@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UD Tegar Jaya Mandiri</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #004466;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      background-color: #006699;
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1583407735294-4ae3a1705ec9') no-repeat center center/cover;
+      color: white;
+      padding: 100px 40px;
+      text-align: center;
+    }
+    .content {
+      padding: 40px;
+      background-color: white;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      color: #004466;
+    }
+    footer {
+      background-color: #004466;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UD Tegar Jaya Mandiri</h1>
+    <p>Spesialis Kaca & Aluminium Berkualitas</p>
+  </header>
+
+  <nav>
+    <div>
+      <a href="#beranda">Beranda</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h2>Solusi Kaca & Aluminium untuk Bangunan Anda</h2>
+    <p>Ramah, Tepat Waktu, dan Hasil Berkualitas</p>
+  </section>
+
+  <section class="content">
+    <div class="section" id="layanan">
+      <h2>Layanan Kami</h2>
+      <ul>
+        <li>Pemasangan Pintu & Jendela Aluminium</li>
+        <li>Kaca Tempered & Kaca Cermin</li>
+        <li>Etalase Toko dan Partisi Kaca</li>
+        <li>Konsultasi & Desain Interior Kaca-Aluminium</li>
+      </ul>
+    </div>
+
+    <div class="section" id="galeri">
+      <h2>Galeri Proyek</h2>
+      <p>Berikut beberapa hasil pekerjaan kami.</p>
+      <!-- Tempat gambar galeri -->
+    </div>
+
+    <div class="section" id="kontak">
+      <h2>Hubungi Kami</h2>
+      <p>Alamat: Jl. Contoh Raya No.123, Kota Anda</p>
+      <p>WA/HP: 0812-3456-7890</p>
+      <p>Email: udtegarjayamandiri@email.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UD Tegar Jaya Mandiri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
